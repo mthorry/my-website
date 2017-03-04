@@ -1,0 +1,201 @@
+  /********************** GENERAL **********************/
+.wrap {
+  width: 98%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+* {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  color: #3e3e3e;
+}
+
+p {
+  font-family: "lato";
+  color: #3e3e3e;
+}
+
+a {
+  font-family: "lato";
+  color: #cfcfcf;
+}
+
+.off-canvas {
+  background-color: #222;
+}
+
+
+
+  /********************** NAV - DESKTOP **********************/
+.nav-desktop {
+  background-color: #222;
+  height: 70px;
+  padding: 0;
+}
+
+.logo {
+  color: #cfcfcf;
+  line-height: 70px;
+  font-family: "lato";
+  font-weight: 300;
+  font-style: italic;
+}
+
+.logo span {
+  font-weight: 700;
+}
+
+.top-bar ul {
+  background-color: transparent;
+  line-height: 70px;
+}
+
+.top-bar ul a:hover {
+  background-color: /*#cfcfcf;*/ rgba(255,255,255, 0.7);
+  line-height: 70px;
+  color: #222;
+  line-height: 70px;
+}
+
+.menu > li > a {
+  display: inline-block;
+  line-height: 70px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "Playfair display";
+}
+
+.has-tip {
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+    font-weight: bold;
+    cursor: help;
+}
+
+
+
+  /********************** NAV - MOBILE **********************/
+.title-bar {
+  background-color: #222;
+  font-family: "Playfair Display";
+  color: silver;
+}
+
+
+.top-bar-right-mobile li {
+  color: silver;
+  line-height: 2;
+  list-style: none;
+}
+
+.top-bar-right-mobile a {
+  color: silver;
+  font-size: 110%;
+  line-height: 2;
+  list-style: none;
+  font-family: "Playfair Display";
+}
+
+.top-bar-right-mobile hr {
+  padding: 0px;
+}
+
+.top-bar-right-mobile p {
+  color: silver;
+  font-size: 125%;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.top-bar-right-mobile a:hover {
+  color: #1779ba;
+}
+
+.top-bar-right-mobile {
+  float: left;
+}
+
+
+
+  /********************** HERO **********************/
+.hero {
+  padding: 225px 15px;
+  top: 50%;
+  width: 100%;
+  background-image: url(http://wallpapercave.com/wp/TSlZ57J.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.hero span {
+  color: white;
+  text-align: center;
+  /*background-color: #cfcfcf;
+  text-shadow: 0px 0px 2px white;
+  letter-spacing: 20px;*/
+  padding: 5px 8px 10px 15px;
+  font-weight: normal;
+  font-family: "bad script";
+  font-size: 200%;
+}
+
+/*.hero p {
+  text-shadow: 0px 0px 1px white;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+}*/
+
+
+
+  /********************** MAIN **********************/
+.main {
+  padding: 30px 15px;
+  background-color: #e7e7e7;
+}
+
+.first_letter {
+  font-size: 25px;
+  line-height: 16px;
+  font-weight: bold;
+  font-family: "Bad Script";
+}
+
+
+  /********************** FOOTER **********************/
+footer {
+  background-color: #C0C0C0;
+  text-align: center;
+  padding: 15px 0px 5px 0px;
+}
+
+footer a {    /*changes all the anchor <a> tags within the footer*/
+  display: block;
+  font-family: "lato";
+  color: #707070;
+}
+
+
+
+  /********************** MEDIA QUERY **********************/
+@media (max-width: 639px) {
+  .nav-desktop {
+    display: none;
+  }
+}
+
+
+
